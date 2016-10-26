@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/msb">
+    <!-- <Resource 
+    auth="Container" 
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://111.93.20.30:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="lokam001" 
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="miracledb"/>  -->
+    <!-- Dev DB Server Start-->
+    <!--<Resource
+    auth="Container" 
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://172.17.0.149:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="lokam001"
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="miracledb"/>--> 
+    <!-- Dev DB Server End-->
+    <!-- Stage1 server start-->
+    <!--    <Resource 
+    auth="Container"    
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://192.168.1.208:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="lokam001"
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="miracledb"/>-->
+    <!-- Stage1 server end -->
+    <!-- QA Testting Start-->
+    <!--<Resource 
+    auth="Container" 
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://192.168.1.239:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="lokam001"
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="miracledb"/>-->
+    <!-- QA Testting End-->
+    <!--  <Resource 
+    auth="Container" 
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://localhost:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="" 
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="root"/>
+  Public IP
+    <Resource 
+    auth="Container" 
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://192.168.1.137:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="lokam001" 
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="miracledb"/>-->
+    <Resource 
+        auth="Container" 
+        description="c3pO DataSource" 
+        driverClass="com.mysql.jdbc.Driver" 
+        factory="org.apache.naming.factory.BeanFactory" 
+        jdbcUrl="jdbc:mysql://172.17.12.66:3306/servicebay?autoReconnect=true" 
+        name="jndi/msb" 
+        password="Divya@621" 
+        type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+        user="root"/>
+    <!--<Resource auth="Container" description="c3pO DataSource" driverClass="com.mysql.jdbc.Driver" factory="org.apache.naming.factory.BeanFactory" jdbcUrl="jdbc:mysql://localhost:3306/servicebay?autoReconnect=true" name="jndi/msb" password="lokam001" type="com.mchange.v2.c3p0.ComboPooledDataSource" user="miracledb"/> -->
+</Context>
